@@ -1,0 +1,22 @@
+{
+  "name": "underthebricks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all build:styles --parallel serve watch:build-styles",
+    "serve": "npx @11ty/eleventy --serve",
+    "build:styles": "sass styles:_site/styles",
+    "watch:build-styles": "chokidar \"styles/**/*.scss\" -c \"npm run build:styles\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "chokidar-cli": "^2.1.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.26.5"
+  }
+}
