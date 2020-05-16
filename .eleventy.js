@@ -8,7 +8,6 @@ module.exports = function(eleventyConfig) {
 
     return {
         dir: {
-          output: "docs",
           includes: "_includes",
           layouts: "_layouts",
           markdownTemplateEngine: "njk"

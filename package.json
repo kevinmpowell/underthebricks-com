@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm-run-all build:styles --parallel serve watch:build-styles",
+    "build": "npm-run-all build:styles build:eleventy",
     "serve": "npx @11ty/eleventy --serve",
-    "build:styles": "sass styles:docs/styles",
+    "build:styles": "sass styles:_site/styles",
+    "build:eleventy": " npx @11ty/eleventy",
     "watch:build-styles": "chokidar \"styles/**/*.scss\" -c \"npm run build:styles\""
   },
   "keywords": [],
