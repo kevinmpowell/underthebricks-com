@@ -1,8 +1,10 @@
+@use '../node_modules/@underthebricks/utb-tokens/build/scss/utb-tokens.scss' as *;
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background: #FF8518;
+  background: $utb-color-brand;
 }
 
 .utb-landing {
