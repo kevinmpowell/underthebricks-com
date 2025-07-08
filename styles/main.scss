@@ -12,39 +12,79 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  // height: 100vh;
   width: 100vw;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.utb-landing-inner {
+  max-width: 80vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+p {
+  font-family: $utb-font-family-serif;
+  color: #FFFFFF;
+  max-width: 700px;
+  font-size: 1vw;
+  line-height: 1.5;
+}
+
+.utb-coupon-code {
+  display: block;
+  text-align: center;
+  background: #FFFFFF;
+  color: $utb-color-palette-black;
+  padding: 4px;
 }
 
 .utb-logo {
   fill: #FFFFFF;
-  height: 100%;
-  max-height: 40vh;
+  max-height: 12vw;
   max-width: 50vw;
-  width: 100%;
 }
 
 .utb-title {
   color: #FFFFFF;
   font-family: $utb-font-family-sans-serif;
-  font-size: 10vw;
+  font-size: 7vw;
+  margin-top: 0;
   margin-bottom: 2vh;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
   @media screen and (min-width: 1024px) {
     font-size: 7vw;
   }
+
+  span {
+    display: block;
+  }
+}
+
+.utb-nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 1000px;
 }
 
 .utb-link {
   font-family: $utb-font-family-sans-serif;
-  font-size: 7vw;
+  font-size: 5vw;
   display: block;
   cursor: pointer;
   width: 100%;
-  text-align: center;
-  margin-top: 2vh;
+  text-align: left;
   color: $utb-color-palette-white;
 
   @media screen and (min-width: 1024px) {
-    font-size: 5vw;
+    font-size: 3vw;
   }
 }

@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Under The Bricks
+title: Thanks for signing up!
 ---
 
 <div class="utb-landing">
@@ -13,8 +13,11 @@ title: Under The Bricks
       <a class="utb-link" href="https://rebrickable.com/users/underthebricks/mocs/">Modular&nbsp;Instructions</a>
       <a class="utb-link" href="https://www.youtube.com/channel/UCKMGaszLrchczZctcnCytiA">Videos</a>
     </nav>
-    <div class="utb-signup-wrap">
-      <script async data-uid="686e265caa" src="https://underthebricks.kit.com/686e265caa/index.js"></script>
-    </div>
+    <p>
+      Thanks for signing up for the Will It Modular newsletter. Use this coupon code at rebrickable.com to save 50% off any set of Will It Modular instructions.
+      <br/>
+      <br/>
+      <code class="utb-coupon-code">UTB2025SUBSCRIBER</code>
+    </p>
   </div>
 </div>
