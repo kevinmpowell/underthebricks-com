@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ff8518;
+}
+
+.utb-landing {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.utb-landing-inner {
+  max-width: 80vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+p {
+  font-family: "Domine", serif;
+  color: #FFFFFF;
+  max-width: 700px;
+  font-size: 1vw;
+  line-height: 1.5;
+}
+
+.utb-coupon-code {
+  display: block;
+  text-align: center;
+  background: #FFFFFF;
+  color: #25283d;
+  padding: 4px;
+}
+
+.utb-logo {
+  fill: #FFFFFF;
+  max-height: 12vw;
+  max-width: 50vw;
+}
+
+.utb-title {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 7vw;
+  margin-top: 0;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .utb-title {
+    font-size: 7vw;
+  }
+}
+.utb-title span {
+  display: block;
+}
+
+.utb-nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+
+.utb-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 5vw;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  color: #fdfffc;
+}
+@media screen and (min-width: 1024px) {
+  .utb-link {
+    font-size: 3vw;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
